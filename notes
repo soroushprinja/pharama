@@ -1,0 +1,17 @@
+This complete codebase provides:
+
+1. Clean HTML/CSS/JS frontend with Bootstrap styling
+2. Node.js/Express backend with MongoDB integration
+3. INR currency support throughout the application
+4. All requested features including alerts, search, filtering, and export
+5. Mobile-responsive design for phone browser access
+6. Ready-to-deploy structure with proper configuration files
+
+To use this code:
+
+1. Export your Lovable project to GitHub
+2. Replace the contents with these files
+3. Set up MongoDB Atlas and add your connection string to .env
+4. Run npm install and npm run dev
+5. Open client/index.html in your browser
+6. The system is production-ready and includes all the features you requested for your father's pharmacy inventory management.
