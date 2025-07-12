@@ -45,6 +45,19 @@ router.post('/medicines', async (req, res) => {
     }
 });
 
+// Get a single medicine by ID
+router.get('/:id', async (req, res) => {
+  const med = await Medicine.findById(req.params.id);
+  res.json(med);
+});
+
+// Update a medicine
+router.put('/:id', async (req, res) => {
+  const updatedMed = await Medicine.findByIdAndUpdate(req.params.id, req.body, { new: true });
+  res.json(updatedMed);
+});
+
+
 // PUT update medicine
 router.put('/medicines/:id', async (req, res) => {
     try {
